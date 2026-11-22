@@ -73,3 +73,8 @@ phishresearch_app/streamlit.log
 __pycache__/
 *.pyc
 
+
+# Allow only the cleaned research notebook
+!phishing_papers/
+phishing_papers/*
+!phishing_papers/Untitled_code_only.ipynb
