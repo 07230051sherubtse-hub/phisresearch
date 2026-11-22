@@ -1,0 +1,75 @@
+﻿# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+
+# Research papers and raw corpus
+corpus_pdfs/
+*.pdf
+
+# Model weights and large files
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+*.h5
+*.keras
+
+# Embeddings and generated indexes
+embeddings/
+indexes/
+vector_store/
+chroma_db/
+huggingface_cache/
+.cache/
+
+# Evaluation datasets - review before publishing
+evaluation_dataset/
+
+# Generated evaluation results
+llm_evaluation_results_local/
+results/
+outputs/
+*.log
+
+# Backup files
+*backup*
+*.bak
+*.tmp
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Deployment archive
+*.zip
+
+# Local model and retrieval artifacts - review before publishing
+models/
+saved_retrieval_artifacts/
+
+# Local corpus and backup directories
+phishing_papers/
+backup_before_qwen_integration/
+
+
+# Application backups, logs and cache
+phishresearch_app/app_backup_*.py
+phishresearch_app/streamlit.log
+__pycache__/
+*.pyc
+
